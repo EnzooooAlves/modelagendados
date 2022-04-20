@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CA50D1C-B023-C4C4-42C7-998C8F3D132E" name="DEPENDENTES ">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:32:49 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOME_DEPENDENTE" id="363BF66B-445A-E233-19BF-2ABAD11BA901">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:33:06 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="76DFF53B-1853-5610-B703-08682583AA86">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:33:33 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA__NASC" id="6C5AC828-98FB-0A8E-1A60-06FC94E0AE3E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:33:51 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARENTESCO" id="0CD6CC0F-A8D8-8177-370C-58006092AED2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:35:01 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4ACDC77-986B-4DF3-9046-65CD04DE7FAD" name="DEPENDENTES PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:33:26 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>363BF66B-445A-E233-19BF-2ABAD11BA901</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="642029E6-FEEF-E990-51B6-BC01A4C9B95D" name="ESTUDANTE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:47:31 UTC</createdTime>
+<ownerDesignName>ESTUDANTE</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOME_PRIMEIRO" id="BF386ECA-1294-4AE4-EB93-07C51999DB5F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:52:12 UTC</createdTime>
+<ownerDesignName>ESTUDANTE</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_ULTIMO" id="8956ED5F-7D66-0EFB-25E7-41B8BB34EC1C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:29 UTC</createdTime>
+<ownerDesignName>ESTUDANTE</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEXO" id="0AD22A17-2A1D-2DC6-7C93-0D51D05C156C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:45 UTC</createdTime>
+<ownerDesignName>ESTUDANTE</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDEREÇO" id="220F6572-2D99-7546-C42D-71FE8502F0B0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:26 UTC</createdTime>
+<ownerDesignName>ESTUDANTE</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10F19401-68E6-6AE7-B6BF-CA62DFACEC34" name="DEPENDENTES">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>3CA50D1C-B023-C4C4-42C7-998C8F3D132E</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME_DEPENDENTE" id="8AEF228E-7E60-09F6-D003-72D39A0A0F6E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>363BF66B-445A-E233-19BF-2ABAD11BA901</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="E3169738-3155-8EC3-BEBA-6E53F23FB893">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>76DFF53B-1853-5610-B703-08682583AA86</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA__NASC" id="62B0A251-1F00-7F78-D98A-ADEBD065E4BE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>6C5AC828-98FB-0A8E-1A60-06FC94E0AE3E</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENTESCO" id="0FE143C3-65AB-C32A-195B-DDFCA5AE5063">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>0CD6CC0F-A8D8-8177-370C-58006092AED2</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPREGADO_EMPREGADO_ID2" id="CB4D83FB-27FC-B228-DCDB-5DAA3AA2FA75">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:35 UTC</createdTime>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B354350D-6497-8513-410C-0E00DAEBCE40" referredColumn="A706EFD8-84B8-C403-4CB5-3848D492A146"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7147973-F12E-FACF-DDC8-F4D306180B85" name="DEPENDENTES_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:39 UTC</createdTime>
+<generatorID>B4ACDC77-986B-4DF3-9046-65CD04DE7FAD</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AEF228E-7E60-09F6-D003-72D39A0A0F6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B9EB15D-6C33-5642-4B7A-0D7AFC838CDE" name="DEPENDENTES_EMPREGADO_FKv2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:35 UTC</createdTime>
+<generatorID>34F19008-0E51-A0A6-A681-0134A7E8C3DA</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB4D83FB-27FC-B228-DCDB-5DAA3AA2FA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

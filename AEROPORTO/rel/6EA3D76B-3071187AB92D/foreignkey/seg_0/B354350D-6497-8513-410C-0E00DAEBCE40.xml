@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B354350D-6497-8513-410C-0E00DAEBCE40" containerWithKeyObject="10F19401-68E6-6AE7-B6BF-CA62DFACEC34" localFKIndex="1B9EB15D-6C33-5642-4B7A-0D7AFC838CDE" name="DEPENDENTES_EMPREGADO_FKv2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:41:35 UTC</createdTime>
+<generatorID>34F19008-0E51-A0A6-A681-0134A7E8C3DA</generatorID>
+<ownerDesignName>AEROPORTO </ownerDesignName>
+<referredTableLongName>EMPREGADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04423CE1-3600-11D3-5C57-2D1C915D0F1C</referredTableID>
+<keyObject>D5D72C08-9D55-F7DB-1CAB-7C533B6FD1B1</keyObject>
+<referredKeyID>D5D72C08-9D55-F7DB-1CAB-7C533B6FD1B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPREGADO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
