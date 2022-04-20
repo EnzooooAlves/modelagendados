@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF21F3E1-9608-A3F0-2720-D99985A6B1C7" name="AGENCIA BANCARIA ">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:02 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUM_AGENCIA" id="D89039C2-038C-4996-48D6-8056CE6ADBC5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:29 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUA" id="ADD71634-2D6F-21DB-4DD4-8B231F346645">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:58 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="CB6358B8-F5CB-8EE6-3BAA-0419BD8D2AA3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:07 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NÚMERO" id="06C4D2E7-EDF3-9E7D-7EFE-E57B33BF30C8">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:22 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="6649EE68-A1D3-0892-84B2-96C6BF390B24">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:38 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="C7A3DB45-A344-5B0B-7DDC-F0582B5C27D0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:58 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E4DAD59-F57C-BB62-4926-274362F3E70F" name="AGENCIA BANCARIA PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:02:49 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D89039C2-038C-4996-48D6-8056CE6ADBC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

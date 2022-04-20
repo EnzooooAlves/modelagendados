@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="684FA9A4-0BFF-E966-724E-11BA02316483" name="BANCO">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>DC219A89-9AD4-42FE-67F5-BF4CBCCD16EE</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME" id="54F589C6-CE33-40BC-E742-C72D6ABF1E1A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>D7AB1AFD-F68F-D44C-8881-F4444ADDAD19</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CÓDIGO" id="7C5DF195-D708-7BA5-6D2F-45DB06ABB30E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>E4D3C468-716B-1F6D-4C84-5C69E5B66AAD</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDEREÇO" id="62D7BC9A-0E24-E295-EB60-B60CB91C5E3A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>F419AE93-A3A7-0E05-452F-3E1A351A2A4E</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F84344D-D9A3-8A41-BF2F-9ADA41BF2898" name="BANCO_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>05855847-A2A7-8D4F-5D71-D251B736A395</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5DF195-D708-7BA5-6D2F-45DB06ABB30E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

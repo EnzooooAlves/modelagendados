@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A44739-D5A6-862E-1073-D5599FD1AF46" name="AGENCIA_BANCARIA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>DF21F3E1-9608-A3F0-2720-D99985A6B1C7</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_AGENCIA" id="304790DF-09B0-F178-0E1B-ACD0B3AC8127">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>D89039C2-038C-4996-48D6-8056CE6ADBC5</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUA" id="7B826747-C4FF-C1F4-02A9-020CF504C245">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>ADD71634-2D6F-21DB-4DD4-8B231F346645</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="9C3A33F1-CB62-CF81-F04A-B0191E2FECE9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>CB6358B8-F5CB-8EE6-3BAA-0419BD8D2AA3</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NÚMERO" id="1A3AC436-2939-102B-9F03-3849F4254CEA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>06C4D2E7-EDF3-9E7D-7EFE-E57B33BF30C8</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="2BC595F0-1B66-BE9F-AF72-C228A2A24513">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>6649EE68-A1D3-0892-84B2-96C6BF390B24</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="9CCBF9DC-F73A-EB2C-108E-684C3F0CC7DB">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>C7A3DB45-A344-5B0B-7DDC-F0582B5C27D0</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B689ADBE-A8EC-24F8-66D4-DD879F8A4043" name="AGENCIA_BANCARIA_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>3E4DAD59-F57C-BB62-4926-274362F3E70F</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="304790DF-09B0-F178-0E1B-ACD0B3AC8127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

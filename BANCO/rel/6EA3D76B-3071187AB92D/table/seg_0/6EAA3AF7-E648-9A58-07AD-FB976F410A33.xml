@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EAA3AF7-E648-9A58-07AD-FB976F410A33" name="BANCO_ENDEREÇO_COMPLETO">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>28387A41-C7CC-651C-9FD6-61BF03689F58</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUA" id="63050E0E-5085-0B39-98E4-C217903B0C64">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>9984535B-57DF-F76B-F7E8-BD0FAA7A79D5</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NÚMERO" id="521B42ED-9D7F-14C2-6098-7534E42DCDB3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>D7C58F90-FA2E-4AC3-F82E-9E8B6B7D91A0</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="14CB1D26-F775-2CE1-7C7C-6BB90CC0FCFA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>B858D7D0-54CC-F5A1-C70D-FD8610B0476D</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="3581DF61-C8BA-DD06-A967-7676E6342081">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>EC7A9ED8-367A-95B4-BC28-D031CD3F4CE8</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

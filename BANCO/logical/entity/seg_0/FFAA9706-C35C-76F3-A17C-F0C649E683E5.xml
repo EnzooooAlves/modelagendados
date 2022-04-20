@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFAA9706-C35C-76F3-A17C-F0C649E683E5" name="CLIENTE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:04:38 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOME" id="004B5031-F071-D852-39E2-C24D0F0690A3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:04:54 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="C891577A-4A02-97B2-3650-952F6CF322AE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:01 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONE" id="E6EFC0A2-11DC-D54E-3FEF-BEC85C9C9E72">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:22 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUA" id="E15804AE-32F5-E3B3-7769-0FB24CC5DB9E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:35 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="D8CB916B-BC88-F500-7203-B259CD1EBF4D">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:42 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="A2ADA230-B2AA-0F37-964A-BB728BFA0ED9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="76E18824-BEEC-12A3-5E13-34E8BA0F947E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:58 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0C1C54D-749D-10B2-E26B-CA46E0337CCE" name="CLIENTE PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:05:05 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C891577A-4A02-97B2-3650-952F6CF322AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

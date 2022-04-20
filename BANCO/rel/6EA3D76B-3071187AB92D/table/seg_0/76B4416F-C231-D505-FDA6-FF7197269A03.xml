@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B4416F-C231-D505-FDA6-FF7197269A03" name="CONTA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>F810856F-AA25-8DAD-C7CB-C59B5FD8A544</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="330EC330-CAF3-A71A-87E7-8379217B0085">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>8FE46920-403F-F1C0-0C8A-AA90388E4A22</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDEREÇO" id="725213A3-2AD6-77AB-B907-6FBBC69AB6DD">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>3505E7F5-11A0-3F1B-CE22-7BB69087AA9C</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="76A35FD1-42B7-5A5D-341B-11D7A3EC1BB7">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>9F3EC8F7-D52F-2182-94B9-D3D08BADF9BF</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

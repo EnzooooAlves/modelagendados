@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1365253B-26CF-9D4A-C308-648B1551FFB9" name="Entity_14">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>90305AA6-0077-1875-7989-9D130EFAFC80</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="6DAC207B-5D11-FBF0-8A12-43700DD3295F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>A8F0614C-23F7-374D-E055-34AECEB928FA</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDEREÇO" id="E5FD647E-DF56-C457-289C-94FC8D1B8207">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>5E26E92D-8B76-8BBE-8CB4-6D09B364661B</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="81C4FB2A-3D10-E349-2225-5419FDB77CE4">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:12:48 UTC</createdTime>
+<generatorID>89819F18-7293-8E4B-CC91-B1FDBD7BDEFE</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

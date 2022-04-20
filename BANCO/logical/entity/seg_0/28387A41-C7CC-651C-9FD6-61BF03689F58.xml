@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28387A41-C7CC-651C-9FD6-61BF03689F58" name=" BANCO_ENDEREÇO COMPLETO">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:00:11 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUA" id="9984535B-57DF-F76B-F7E8-BD0FAA7A79D5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:00:55 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NÚMERO" id="D7C58F90-FA2E-4AC3-F82E-9E8B6B7D91A0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:04 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="B858D7D0-54CC-F5A1-C70D-FD8610B0476D">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:26 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="EC7A9ED8-367A-95B4-BC28-D031CD3F4CE8">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:37 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="6EA3D76B-1BB4-FC19-0BD2-3071187AB92D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4136480-1E10-FE90-1394-1CEE69DEE95A" name="ESTUDANTE">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:08 UTC</createdTime>
+<generatorID>642029E6-FEEF-E990-51B6-BC01A4C9B95D</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME_PRIMEIRO" id="3AE43782-E4BA-EC6A-EBDF-3FD0F3EDA4D9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:08 UTC</createdTime>
+<generatorID>BF386ECA-1294-4AE4-EB93-07C51999DB5F</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_ULTIMO" id="8FCD4FF6-D082-F158-CA45-4A1C04D1FB4A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:08 UTC</createdTime>
+<generatorID>8956ED5F-7D66-0EFB-25E7-41B8BB34EC1C</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="C1F66141-1FB7-7287-4588-B9B6D81C4848">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:08 UTC</createdTime>
+<generatorID>0AD22A17-2A1D-2DC6-7C93-0D51D05C156C</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDEREÇO" id="E7A0F206-724D-5A9A-CBD8-5549BE6D405E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:08 UTC</createdTime>
+<generatorID>220F6572-2D99-7546-C42D-71FE8502F0B0</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
